@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<EvergineAssetContent>Content</EvergineAssetContent>
+		<GenerateEvergineContent>True</GenerateEvergineContent>
+		<GenerateEvergineAssets>True</GenerateEvergineAssets>
+		<GenerateEvergineScenesCode>True</GenerateEvergineScenesCode>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="Content/**/*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Evergine.Bullet" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.CodeScenes" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.Common" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.Components" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.DirectX11" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.Forms" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.Framework" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.HLSLEverywhere" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.Mathematics" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.Targets" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.Targets.Windows" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.Vulkan" Version="2021.11.17.2-preview" />
+		<PackageReference Include="Evergine.XAudio2" Version="2021.11.17.2-preview" />
+	</ItemGroup>
+
+</Project>
